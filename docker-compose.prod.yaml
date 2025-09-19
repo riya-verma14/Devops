@@ -1,0 +1,9 @@
+services:
+  # mru-exp-img:
+  #   environment:
+  #    - NODE_ENV=development
+  #   command: npm run dev
+  mru-prod-img:
+    environment:
+     - NODE_ENV=development
+    command: npm run dev
